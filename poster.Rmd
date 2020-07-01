@@ -7,7 +7,7 @@ author:
   - name: Swapnaa Jayaraman
     affil: 2
   - name: Shohan Hasan
-    affil: 3
+    affil: 2
   - name: Jesse Lingeman
     affil: 2
 affiliation:
@@ -15,11 +15,18 @@ affiliation:
     address: The Pennsylvania State University
   - num: 2
     address: Databrary.org
-  - num: 3
-    address: New York University
-column_numbers: 3
-logoright_name: img/databrary-nav.svg
-logoleft_name: img/PLAY-logo.png
+column_numbers: 4
+poster_width: "48in"
+poster_height: "36in"
+title_textsize: "90pt"
+author_textsize: "50pt"
+affiliation_textsize: "20pt"
+sectitle_textsize: "65pt"
+sectitle2_textsize: "55pt"
+body_textsize: "40pt"
+primary_colour: "#629260"
+secondary_colour: "#629260"
+author_textcol: "#FFFFFF"
 output: 
   posterdown::posterdown_html:
     self_contained: false
@@ -36,6 +43,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align='center', out.width='95%')
 Many fields of scientific research face daunting challenges of reproducibility. 
 The science of infant development is no exception. 
 We describe a set of free and open source software tools we have developed that support fully reproducible data collection, cleaning, visualization, and analysis workflows.
+</br>
 
 # Case 1: PLAY Project
 
@@ -50,7 +58,7 @@ knitr::include_graphics("img/overview-project.png")
 
 ## Quality assurance (QA)
 
-Data collection labs upload 1) videos and other documents to Databrary and 2) survey information to the KoBoToolbox server (<https://kobotoolbox.org>).
+Data collection labs upload 1) videos and other documents to Databrary and 2) survey information to the [KoBoToolbox server](https://kobotoolbox.org).
 Staff then run an R script to check that all data were entered correctly.
 Figures \@ref(fig:name-checks) and \@ref(fig:ss-checks) show some of the outputs.
 
@@ -64,7 +72,11 @@ knitr::include_graphics("img/spreadsheet-checks.png")
 
 In addition to using the `databraryapi` package [@databraryapi], we have also been developing packages in Python [@pyvyu; @db_playmate] as part of our work to automate workflows on PLAY.
 
-# Case 2: Databrary
+</br>
+</br>
+</br>
+
+# Case 2: Databrary.org
 
 Databrary [@databrary] is a restricted access data library offering scientists a secure way to store and share identifiable research data, especially video and audio recordings.
 Databrary has an application program interface (API).
@@ -88,5 +100,14 @@ Our code can be found on GitHub [@databraryapi; @databrary-analytics], and we ar
 # Support
 
 We acknowledge support from the National Institutes of Health, the National Science Foundation, the Alfred P. Sloan Foundation, the James S. McDonnell Foundation, the Society for Research in Child Development, the LEGO Foundation, and the Defense Advanced Research Projects Agency.
+
+```{r, fig.align='center', out.width='95%'}
+knitr::include_graphics("img/PLAY-logo.png")
+```
+
+```{r, ig.align='center', out.width='95%'}
+knitr::include_graphics("img/databrary-nav-sm.png")
+```
+
 
 # References

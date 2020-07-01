@@ -42,7 +42,7 @@ knitr::include_graphics("img/overview-project.png")
 - Check video, ambient sound, file names
 - Check that videos exist
 - Check participant demographics data
-- [R Markdown report template]() generates HTML-formatted report
+- [R Markdown report template](https://github.com/PLAY-behaviorome/workflow/blob/master/session_qa_reports/session-qa-report.Rmd) generates HTML-formatted report
 
 ---
 
@@ -83,7 +83,7 @@ knitr::include_graphics("img/databrary-weekly.png")
 
 ## Conclusions
 
-- R + R Markdown [@R-lang, @R-rmarkdown] permit robust & reproducible QA and data visualization workflows.
+- R + R Markdown [@R-lang;@R-rmarkdown] permit robust & reproducible QA and data visualization workflows.
 - Storing data in repositories or cloud storage with APIs permits reproducible workflows.
 
 ## References

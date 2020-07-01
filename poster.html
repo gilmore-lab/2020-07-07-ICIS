@@ -21,43 +21,42 @@ Google fonts api stuff
 
 <title>Tools for reproducible developmental science</title>
 
-<script src="poster_files/header-attrs-2.2/header-attrs.js"></script>
 
 
 
 
 <style>
 @page {
-size: 45in 38in;
+size: 48in 36in;
 margin: 0;
 padding: 0;
 }
 body {
 margin: 0;
-font-size: 45px;
-width: 45in;
-height: 38in;
+font-size: 40pt;
+width: 48in;
+height: 36in;
 padding: 0;
 text-align: justify;
 font-family: Palatino;
 }
 .poster_wrap {
-width: 45in;
-height: 38in;
+width: 48in;
+height: 36in;
 padding: 0cm;
 }
 .title_container {
-width: 45in;
-height: calc(38in * 0.15);
+width: 48in;
+height: calc(36in * 0.15);
 overflow: hidden;
-background-color: #0b4545;
-border: 0 solid #0b4545;
+background-color: #629260;
+border: 0 solid #629260;
 }
 .logo_left {
 float: left;
 width: 10%;
 height: 100%;
-background-color: #0b4545;
+background-color: #629260;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -66,7 +65,7 @@ justify-content: center;
 float: right;
 width: 10%;
 height: 100%;
-background-color: #0b4545;
+background-color: #629260;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -107,9 +106,9 @@ a:active {
 color: #cc0000;
 }
 .poster_body {
--webkit-column-count: 3; /* Chrome, Safari, Opera */
--moz-column-count: 3; /* Firefox */
-column-count: 3;
+-webkit-column-count: 4; /* Chrome, Safari, Opera */
+-moz-column-count: 4; /* Firefox */
+column-count: 4;
 -webkit-column-fill: auto;
 -moz-column-fill: auto;
 column-fill: auto;
@@ -119,9 +118,9 @@ column-rule-width: 1mm;
 -webkit-column-rule-style: dashed;
 -moz-column-rule-style: dashed;
 column-rule-style: dashed;
--webkit-column-rule-color: #0b4545;
--moz-column-rule-color: #0b4545;
-column-rule-color: #0b4545;
+-webkit-column-rule-color: #629260;
+-moz-column-rule-color: #629260;
+column-rule-color: #629260;
 column-gap: 1em;
 padding-left: 0.5em;
 padding-right: 0.5em;
@@ -130,20 +129,20 @@ color: #000000
 background-color: #ffffff;
 }
 .poster_title h1 {
-font-size: 75pt;
+font-size: 90pt;
 margin: 0;
 border: 0;
 font-weight: normal;
 }
 .poster_body_wrap{
-width: calc(45in + 0 + 0);
-height: calc(38in * 0.83);
-padding-top: calc(38in * 0.005);
-padding-bottom: calc(38in * 0.01);
+width: calc(48in + 0 + 0);
+height: calc(36in * 0.83);
+padding-top: calc(36in * 0.005);
+padding-bottom: calc(36in * 0.01);
 background-color: #ffffff;
 }
 .poster_title h3 {
-color: #ffffff;
+color: #FFFFFF;
 font-size: 50pt;
 margin: 0;
 border: 0;
@@ -155,7 +154,7 @@ font-weight: normal;
 }
 .poster_title h5 {
 color: #FFFFFF;
-font-size: 35pt;
+font-size: ;
 margin: 0;
 border: 0;
 font-weight: normal;
@@ -171,8 +170,8 @@ margin-bottom: 0;
 text-align: center;
 color: #FFFFFF;
 font-size: 65pt;
-border: 2mm solid #0b4545;
-background-color: #0b4545;
+border: 2mm solid #629260;
+background-color: #629260;
 border-radius: 4mm 0mm;
 margin-top: 2mm;
 margin-bottom: 2mm;
@@ -180,7 +179,7 @@ font-weight: normal;
 }
 .poster_body h2 {
 color: #000000;
-font-size: 40pt;
+font-size: 55pt;
 padding-left: 4mm;
 font-weight: normal;
 }
@@ -224,8 +223,8 @@ padding-bottom: 3mm;
 code {
 font-size: 1em;
 font-family: monospace;
-background-color: #00808024;
-color: #0b4545;
+background-color: #62926024;
+color: #629260;
 padding: 1.2mm;
 border-radius: 2mm;
 }
@@ -279,17 +278,15 @@ font-size: 20pt;
 <div class="title_container">
 <!-- Left Logo  -->
 <div class="logo_left">
-<img src= 'img/PLAY-logo.png' style="width: 80%">
 </div>
 <!-- Poster Title -->
 <div class= "poster_title">
 <h1 id="title">Tools for reproducible developmental science</h1>
-<h3 id="author">Rick O. Gilmore<sup>1,2, <a class="orcid" href="https://orcid.org/0000-0002-7676-3982"><img src="https://raw.githubusercontent.com/brentthorne/posterdown/master/images/orcid.jpg"></a></sup>, Swapnaa Jayaraman<sup>2</sup>, Shohan Hasan<sup>3</sup>, Jesse Lingeman<sup>2</sup></h3><br>
-<h5 id="affiliation"><sup>1</sup> The Pennsylvania State University<br> <sup>2</sup> Databrary.org<br> <sup>3</sup> New York University</h5>
+<h3 id="author">Rick O. Gilmore<sup>1,2, <a class="orcid" href="https://orcid.org/0000-0002-7676-3982"><img src="https://raw.githubusercontent.com/brentthorne/posterdown/master/images/orcid.jpg"></a></sup>, Swapnaa Jayaraman<sup>2</sup>, Shohan Hasan<sup>2</sup>, Jesse Lingeman<sup>2</sup></h3><br>
+<h5 id="affiliation"><sup>1</sup> The Pennsylvania State University<br> <sup>2</sup> Databrary.org</h5>
 </div>
 <!-- Right Logo  -->
 <div class="logo_right">
-<img src=img/databrary-nav.svg style="width: 80%">
 </div>
 </div>
 
@@ -299,7 +296,8 @@ font-size: 20pt;
 <h1>Overview</h1>
 <p>Many fields of scientific research face daunting challenges of reproducibility.
 The science of infant development is no exception.
-We describe a set of free and open source software tools we have developed that support fully reproducible data collection, cleaning, visualization, and analysis workflows.</p>
+We describe a set of free and open source software tools we have developed that support fully reproducible data collection, cleaning, visualization, and analysis workflows.
+</br></p>
 </div>
 <div id="case-1-play-project" class="section level1">
 <h1>Case 1: PLAY Project</h1>
@@ -314,7 +312,7 @@ Figure 1: PLAY workflow
 </div>
 <div id="quality-assurance-qa" class="section level2">
 <h2>Quality assurance (QA)</h2>
-<p>Data collection labs upload 1) videos and other documents to Databrary and 2) survey information to the KoBoToolbox server (<a href="https://kobotoolbox.org" class="uri">https://kobotoolbox.org</a>).
+<p>Data collection labs upload 1) videos and other documents to Databrary and 2) survey information to the <a href="https://kobotoolbox.org">KoBoToolbox server</a>.
 Staff then run an R script to check that all data were entered correctly.
 Figures <a href="#fig:name-checks">2</a> and <a href="#fig:ss-checks">3</a> show some of the outputs.</p>
 <div class="figure" style="text-align: center"><span id="fig:name-checks"></span>
@@ -330,11 +328,15 @@ Figure 3: Checking PLAY spreadsheet data
 </p>
 </div>
 <p>In addition to using the <code>databraryapi</code> package <span class="citation">(Gilmore, 2020)</span>, we have also been developing packages in Python <span class="citation">(Hasan, Nezzar, &amp; Lingeman, 2020; Lingeman &amp; Hasan, 2020)</span> as part of our work to automate workflows on PLAY.</p>
+<p></br>
+</br>
+</br></p>
 </div>
 </div>
-<div id="case-2-databrary" class="section level1">
-<h1>Case 2: Databrary</h1>
-<p>Databrary <span class="citation">(<em>Databrary</em>, 2020)</span> is a restricted access data library offering scientists a secure way to store and share identifiable research data, especially video and audio recordings.Databrary has an application program interface (API).
+<div id="case-2-databrary.org" class="section level1">
+<h1>Case 2: Databrary.org</h1>
+<p>Databrary <span class="citation">(<em>Databrary</em>, 2020)</span> is a restricted access data library offering scientists a secure way to store and share identifiable research data, especially video and audio recordings.
+Databrary has an application program interface (API).
 Using scripts that call the API <span class="citation">(Gilmore, 2020; Lingeman &amp; Hasan, 2020)</span>, researchers can write <strong>reproducible</strong> code that gathers data from Databrary and visualizes or analyzes it.</p>
 <div id="charting-databrarys-growth" class="section level2">
 <h2>Charting Databrary’s growth</h2>
@@ -356,10 +358,12 @@ Our code can be found on GitHub <span class="citation">(Gilmore, 2020; Gilmore &
 <div id="support" class="section level1">
 <h1>Support</h1>
 <p>We acknowledge support from the National Institutes of Health, the National Science Foundation, the Alfred P. Sloan Foundation, the James S. McDonnell Foundation, the Society for Research in Child Development, the LEGO Foundation, and the Defense Advanced Research Projects Agency.</p>
+<p><img src="img/PLAY-logo.png" width="95%" style="display: block; margin: auto;" /></p>
+<p><img src="img/databrary-nav-sm.png" width="95%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
-<div id="refs" class="references hanging-indent">
+<div id="refs" class="references">
 <div id="ref-PLAY">
 <p>Adolph, K. E., Tamis-Lemonda, C. T., &amp; Gilmore, R. O. (2020). <em>The play &amp; Learning Across a Year (PLAY) Project</em>. Retrieved from <a href="https://play-project.org">https://play-project.org</a></p>
 </div>
