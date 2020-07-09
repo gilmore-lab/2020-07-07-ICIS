@@ -47,7 +47,7 @@ We describe a set of free and open source software tools we have developed that 
 
 # Case 1: PLAY Project
 
-The Play & Learning Across a Year (PLAY) project [@PLAY] is a collaborative research initiative by 65 researchers from 45 universities across the United States and Canada. 
+The Play & Learning Across a Year (PLAY) project [@PLAY] is a collaborative research initiative by 67 researchers from 52 universities across the United States and Canada. 
 PLAY focuses on recording and revealing the behaviors of infants and mothers during natural activity in their homes.
 
 Figure \@ref(fig:play-overview) shows the project's multi-step workflow.

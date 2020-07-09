@@ -28,12 +28,12 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
 ## Case 1: PLAY Project
 
 - Play & Learning Across a Year (PLAY) project, <https://play-project.org>
-- Collaborative research initiative -- 65 researchers from 45 universities in U.S. & Canada
+- Collaborative research initiative -- 67 researchers from 52 colleges and universities in U.S. & Canada
 - 1 hr video-recorded mother-infant interaction in home + ambient sound + surveys
 
 ---
 
-```{r play-overview, fig.cap='PLAY workflow', out.height='35%'}
+```{r play-overview, fig.cap='PLAY workflow', out.height='550px'}
 knitr::include_graphics("img/overview-project.png")
 ```
 
@@ -46,13 +46,13 @@ knitr::include_graphics("img/overview-project.png")
 
 ---
 
-```{r name-checks, fig.cap='Checking PLAY file names'}
+```{r name-checks, fig.cap='Checking PLAY file names', out.height='550px'}
 knitr::include_graphics("img/file-name-checks.png")
 ```
 
 ---
 
-```{r ss-checks, fig.cap='Checking PLAY spreadsheet data'}
+```{r ss-checks, fig.cap='Checking PLAY spreadsheet data', out.height='550px'}
 knitr::include_graphics("img/spreadsheet-checks.png")
 ```
 
